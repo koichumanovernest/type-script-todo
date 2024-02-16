@@ -1,0 +1,41 @@
+.container1 {
+	border: 1px solid #ddd;
+	padding: 50px 50px 50px 100px;
+	margin-bottom: 10px;
+}
+
+.content {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 10px;
+	p {
+		color: #fff;
+		font-size: 20px;
+		font-weight: 900;
+		border: 1px solid #ddd;
+		width: 400px;
+		height: 30px;
+		margin-top: 3px;
+		margin-bottom: 20px;
+	}
+	input {
+		background: transparent;
+		border: 1px solid #ddd;
+		width: 300px;
+		height: 30px;
+		transition: 1s;
+		border-radius: 20px;
+		&:hover {
+			background: rgb(117, 117, 209);
+			transition: 1s;
+		}
+	}
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+button {
+	margin-right: 5px;
+}
